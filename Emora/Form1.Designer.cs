@@ -1,4 +1,4 @@
-﻿namespace Emora
+namespace Emora
 {
     partial class Form1
     {
@@ -272,4 +272,3 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
-
