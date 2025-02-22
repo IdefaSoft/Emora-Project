@@ -15,13 +15,13 @@ Emora is an OSINT tool like sherlock, which can find out on which sites a userna
 We now have a discord server for the project! https://discord.gg/gKT6GT2YCS
 
 ## Showcase
-![Emora Showcase](https://raw.githubusercontent.com/Prescoter/Emora-Project/main/EmoraShowcase.gif)
+![Emora Showcase](https://raw.githubusercontent.com/IdefaSoft/Emora-Project/main/EmoraShowcase.gif)
 
 ## Installation
 
 ### Using setup
 
-If you don't want to or can't build the software yourself, you can download its setup/portable version [here](https://github.com/Prescoter/Emora-Project/releases/tag/v1.1)
+If you don't want to or can't build the software yourself, you can download its setup/portable version [here](https://github.com/IdefaSoft/Emora-Project/releases/tag/v1.1)
 
 ### Building from source
 
@@ -43,11 +43,11 @@ A: I don't have the money to pay for a 3yr Digicert Certificate to sign all of m
 
 ## Star History
 
-<a href="https://star-history.com/#Prescoter/Emora-Project&Date">
+<a href="https://star-history.com/#IdefaSoft/Emora-Project&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Prescoter/Emora-Project&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Prescoter/Emora-Project&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Prescoter/Emora-Project&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=IdefaSoft/Emora-Project&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=IdefaSoft/Emora-Project&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=IdefaSoft/Emora-Project&type=Date" />
   </picture>
 </a>
 
