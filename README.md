@@ -1,18 +1,16 @@
 <h1 align="center">Emora</h1>
 
-**Emora** allows you to search for accounts by username across social networks. Inspired by tools like Sherlock, Emora provides a user-friendly graphical interface to ease the usage and navigation through the results.  
-[Click Here](https://github.com/IdefaSoft/Emora-Project/blob/main/SupportedWebsites.md) to access the list of the 124 currently supported sites.
+**Emora** is an OSINT tool that allows you to search for accounts by username across social networks. Inspired by tools like Sherlock, Emora provides a user-friendly graphical interface to ease the usage and navigation through the results.  
 
 ## Overview
 
 - [Showcase](#showcase)
 - [How to install it](#installation)
-  - [Using setup](#using-setup)
+  - [Using binary release](#using-binary-release)
   - [Building from source](#building-from-source)
 - [Features](#features)
-- [FAQ](#faq)
 
-Emora is an OSINT tool like sherlock, which can find out on which sites a username is claimed or not.  
+[Click Here](https://github.com/IdefaSoft/Emora-Project/blob/main/SupportedWebsites.md) to access the list of the 124 currently supported sites.  
 We also have a discord server for the project! https://discord.gg/gKT6GT2YCS
 
 ## Showcase
@@ -21,7 +19,7 @@ We also have a discord server for the project! https://discord.gg/gKT6GT2YCS
 
 ## Installation
 
-### Using setup
+### Using binary release
 
 If you don't want to or can't build the software yourself, you can download it [here](https://github.com/IdefaSoft/Emora-Project/releases/tag/v1.2.0)
 
@@ -45,5 +43,5 @@ Contributions are welcome! If you'd like to contribute to Emora, please fork the
 
 ## Credits
 
-This project was mainly inspired by [Sherlock](https://github.com/sherlock-project/sherlock).
+This project was mainly inspired by [Sherlock](https://github.com/sherlock-project/sherlock).  
 We sometimes also used [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) to add certain sites.
