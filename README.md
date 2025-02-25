@@ -1,6 +1,7 @@
 <h1 align="center">Emora</h1>
 
-**Emora** allows you to search for accounts by username across social networks. Inspired by tools like Sherlock, Emora provides a user-friendly graphical interface to ease the usage and navigation through the results.
+**Emora** allows you to search for accounts by username across social networks. Inspired by tools like Sherlock, Emora provides a user-friendly graphical interface to ease the usage and navigation through the results.  
+[Click Here](https://github.com/IdefaSoft/Emora-Project/blob/main/SupportedWebsites.md) to access the list of the 124 currently supported sites.
 
 ## Overview
 
@@ -12,16 +13,17 @@
 - [FAQ](#faq)
 
 Emora is an OSINT tool like sherlock, which can find out on which sites a username is claimed or not.  
-We now have a discord server for the project! https://discord.gg/gKT6GT2YCS
+We also have a discord server for the project! https://discord.gg/gKT6GT2YCS
 
 ## Showcase
 ![Emora Showcase](https://raw.githubusercontent.com/IdefaSoft/Emora-Project/main/EmoraShowcase.gif)
+![Emora Example](https://raw.githubusercontent.com/IdefaSoft/Emora-Project/main/EmoraSearchExample.png)
 
 ## Installation
 
 ### Using setup
 
-If you don't want to or can't build the software yourself, you can download its setup/portable version [here](https://github.com/IdefaSoft/Emora-Project/releases/tag/v1.1)
+If you don't want to or can't build the software yourself, you can download it [here](https://github.com/IdefaSoft/Emora-Project/releases/tag/v1.2.0)
 
 ### Building from source
 
@@ -30,27 +32,8 @@ In order to build the software, you need to install **Visual Studio 2022 or** hi
 ## Features
 
 - **Intuitive User Interface**: Emora offers a user-friendly graphical interface, making search and result exploration more accessible.
-- **Search Across Multiple Sites**: The tool queries a variety of popular websites (46 for now) to determine if the specified username is being used.
+- **Search Across Multiple Sites**: The tool queries a variety of popular websites (124 for now) to determine if the specified username is being used.
 - **Frequently updated**: Emora is a brand new open source project, and will be updated regularly!
-
-## FAQ
-
-Q: When I try to open the software, a message saying "This app can't run on your PC" appears.  
-A: The compiled version of the project only supports 64bit computers, but you can still try to build it from source.
-
-Q: Antivirus flags your files  
-A: I don't have the money to pay for a 3yr Digicert Certificate to sign all of my Windows binaries, even if I did, would it be a waste? (EXEs are currently unsigned)
-
-## Star History
-
-<a href="https://star-history.com/#IdefaSoft/Emora-Project&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=IdefaSoft/Emora-Project&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=IdefaSoft/Emora-Project&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=IdefaSoft/Emora-Project&type=Date" />
-  </picture>
-</a>
-
 
 ## Troubleshooting
 
@@ -62,4 +45,5 @@ Contributions are welcome! If you'd like to contribute to Emora, please fork the
 
 ## Credits
 
-This project was mainly inspired by [Sherlock](https://github.com/sherlock-project/sherlock)
+This project was mainly inspired by [Sherlock](https://github.com/sherlock-project/sherlock).
+We sometimes also used [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) to add certain sites.
