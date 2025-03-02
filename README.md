@@ -4,11 +4,15 @@
 
 ## Overview
 
+- [Overview](#overview)
 - [Showcase](#showcase)
-- [How to install it](#installation)
+- [Installation](#installation)
   - [Using binary release](#using-binary-release)
   - [Building from source](#building-from-source)
 - [Features](#features)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [Credits](#credits)
 
 [Click Here](https://github.com/IdefaSoft/Emora-Project/blob/main/SupportedWebsites.md) to access the list of the 124 currently supported sites.  
 We also have a discord server for the project! https://discord.gg/gKT6GT2YCS
@@ -30,7 +34,7 @@ In order to build the software, you need to install **Visual Studio 2022 or** hi
 ## Features
 
 - **Intuitive User Interface**: Emora offers a user-friendly graphical interface, making search and result exploration more accessible.
-- **Search Across Multiple Sites**: The tool queries a variety of popular websites (124 for now) to determine if the specified username is being used.
+- **Search Across Multiple Sites**: The tool queries a variety of popular websites (129 for now) to determine if the specified username is being used.
 - **Frequently updated**: Emora is a brand new open source project, and will be updated regularly!
 
 ## Troubleshooting

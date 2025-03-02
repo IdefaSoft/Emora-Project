@@ -1,5 +1,6 @@
 # List of all supported websites
 
+- [500px](https://500px.com/)
 - [About.me](https://about.me/)
 - [AllMyLinks](https://allmylinks.com/)
 - [AlternativeTo](https://alternativeto.net/)
@@ -27,6 +28,7 @@
 - [Duolingo](https://www.duolingo.com/)
 - [Ebay](https://www.ebay.com/)
 - [Facebook](https://www.facebook.com/)
+- [Fandom](https://www.fandom.com/)
 - [Flickr](https://www.flickr.com/)
 - [Freesound](https://freesound.org/)
 - [Gaia Online](https://www.gaiaonline.com/)
@@ -55,6 +57,7 @@
 - [Kickstarter](https://www.kickstarter.com/)
 - [Kik](https://kik.me/)
 - [Ko-fi](https://ko-fi.com/)
+- [Komi](https://komi.io/)
 - [Kongregate](https://www.kongregate.com/)
 - [Last.fm](https://www.last.fm/)
 - [LeetCode](https://leetcode.com/)
@@ -68,6 +71,7 @@
 - [ModDB](https://www.moddb.com/)
 - [MyAnimeList](https://myanimelist.net/)
 - [Myspace](https://myspace.com)
+- [Naver](https://www.naver.com/)
 - [Newgrounds](https://www.newgrounds.com/)
 - [npm](https://www.npmjs.com/)
 - [Odnoklassniki](https://ok.ru/)
@@ -120,6 +124,7 @@
 - [Weebly](https://www.weebly.com/)
 - [Wikipedia](https://wikipedia.org)
 - [X/Twitter](https://x.com/)
+- [XING](https://www.xing.com/)
 - [Zomato](https://www.zomato.com/)
 - [CurseForge](https://www.curseforge.com/)
 - [Etsy](https://www.etsy.com/)

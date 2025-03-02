@@ -214,6 +214,11 @@
             this.imgWebsiteIcons.Images.SetKeyName(123, "Zomato");
             this.imgWebsiteIcons.Images.SetKeyName(124, "Weebly");
             this.imgWebsiteIcons.Images.SetKeyName(125, "Discord");
+            this.imgWebsiteIcons.Images.SetKeyName(126, "Komi");
+            this.imgWebsiteIcons.Images.SetKeyName(127, "500px");
+            this.imgWebsiteIcons.Images.SetKeyName(128, "Fandom");
+            this.imgWebsiteIcons.Images.SetKeyName(129, "Naver");
+            this.imgWebsiteIcons.Images.SetKeyName(130, "XING");
             // 
             // lblStatus
             // 
