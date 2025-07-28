@@ -95,7 +95,7 @@ namespace Emora
             {"Lichess", new WebsiteInfo {ErrorType = "status_code", Url = "https://lichess.org/@/{}"}},
             {"LinkedIn", new WebsiteInfo {ErrorType = "status_code", Url = "https://www.linkedin.com/in/{}"}},
             {"Linktree", new WebsiteInfo {ErrorType = "message", ErrorMessage = "\"statusCode\":404", Url = "https://linktr.ee/{}"}},
-            {"Medium", new WebsiteInfo {ErrorType = "message", ErrorMessage = "<span class=\"fw\">404</span>", Url = "https://{}.medium.com/about"}},
+            {"Medium", new WebsiteInfo {ErrorType = "message", ErrorMessage = ">404</span>", Url = "https://{}.medium.com/about"}},
             {"Minecraft", new WebsiteInfo {ErrorType = "status_code", Url = "https://api.mojang.com/users/profiles/minecraft/{}"}},
             {"Mixcloud", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://www.mixcloud.com/{}/", Url = "https://api.mixcloud.com/{}/"}},
             {"ModDB", new WebsiteInfo {ErrorType = "status_code", Url = "https://www.moddb.com/members/{}"}},
@@ -115,6 +115,7 @@ namespace Emora
             {"Plurk", new WebsiteInfo {ErrorType = "message", ErrorMessage = "<title>User Not Found! - Plurk</title>", Url = "https://www.plurk.com/{}"}},
             {"Product Hunt", new WebsiteInfo {ErrorType = "status_code", Url = "https://www.producthunt.com/@{}"}},
             {"PyPi", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://pypi.org/user/{}", Url = "https://pypi.org/_includes/administer-user-include/{}"}},
+            {"Rate Your Music", new WebsiteInfo {ErrorType = "status_code", Url = "https://rateyourmusic.com/~{}"}},
             {"Reddit", new WebsiteInfo {ErrorType = "message", ErrorMessage = "\"error\": 404}", SuccessMessage = "is_employee:", ProfileUrl = "https://www.reddit.com/user/{}/", Url = "https://www.reddit.com/user/{}/about.json"}},
             {"Replit", new WebsiteInfo {ErrorType = "status_code", Url = "https://replit.com/@{}"}},
             {"ReverbNation", new WebsiteInfo {ErrorType = "message", ErrorMessage = "<title>Page Not Found</title>", Url = "https://www.reverbnation.com/{}"}},
@@ -137,11 +138,11 @@ namespace Emora
             {"TryHackMe", new WebsiteInfo {ErrorType = "message", ErrorMessage = " doesn't exist\"}", ProfileUrl = "https://tryhackme.com/p/{}", Url = "https://tryhackme.com/api/v2/public-profile?username={}"}},
             {"TikTok", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://www.tiktok.com/@{}", Url = "https://www.tiktok.com/oembed?url=https://www.tiktok.com/@{}"}},
             {"Tinder", new WebsiteInfo {ErrorType = "message", ErrorMessage = "<title data-react-helmet=\"true\">Tinder | ", Url = "https://tinder.com/@{}"}},
-            {"Threads", new WebsiteInfo {ErrorType = "message", ErrorMessage = "<title>Threads</title>", Url = "https://www.threads.net/@{}", Headers = new Dictionary<string, string> {{ "Sec-Fetch-Mode", "navigate" }}}},
+            {"Threads", new WebsiteInfo {ErrorType = "message", ErrorMessage = "<title>Threads", Url = "https://www.threads.net/@{}", Headers = new Dictionary<string, string> {{ "Sec-Fetch-Mode", "navigate" }}}},
             {"Topcoder", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://profiles.topcoder.com/{}/", Url = "https://api.topcoder.com/v5/members/{}"}},
             {"TradingView", new WebsiteInfo {ErrorType = "status_code", Url = "https://www.tradingview.com/u/{}/"}},
             {"Trello", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://trello.com/u/{}/activity", Url = "https://trello.com/1/Members/{}"}},
-            {"Truth Social", new WebsiteInfo {ErrorType = "message", ErrorMessage = "\"error\":\"Record not found\"", ProfileUrl = "https://truthsocial.com/@{}", Url = "https://truthsocial.com/api/v1/accounts/lookup?acct={}"}},
+            {"Truth Social", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://truthsocial.com/@{}", Url = "https://truthsocial.com/api/v1/accounts/lookup?acct={}"}},
             {"Tumblr", new WebsiteInfo {ErrorType = "status_code", Url = "https://www.tumblr.com/{}"}},
             {"Twitch", new WebsiteInfo {ErrorType = "status_code", ProfileUrl = "https://www.twitch.tv/{}", Url = "https://twitchtracker.com/{}"}},
             {"Untappd", new WebsiteInfo {ErrorType = "status_code", Url = "https://untappd.com/user/{}"}},
@@ -250,7 +251,7 @@ namespace Emora
             {
                 Timeout = TimeSpan.FromSeconds(8)
             };
-            client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0");
+            client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0");
             return client;
         }
 

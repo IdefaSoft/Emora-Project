@@ -219,6 +219,7 @@
             this.imgWebsiteIcons.Images.SetKeyName(128, "Fandom");
             this.imgWebsiteIcons.Images.SetKeyName(129, "Naver");
             this.imgWebsiteIcons.Images.SetKeyName(130, "XING");
+            this.imgWebsiteIcons.Images.SetKeyName(131, "Rate Your Music");
             // 
             // lblStatus
             // 

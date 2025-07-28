@@ -85,6 +85,7 @@
 - [Plurk](https://www.plurk.com/)
 - [Product Hunt](https://www.producthunt.com/)
 - [PyPi](https://pypi.org/)
+- [Rate Your Music](https://rateyourmusic.com/)
 - [Reddit](https://www.reddit.com/)
 - [Replit](https://replit.com/)
 - [ReverbNation](https://www.reverbnation.com/)
